@@ -1,0 +1,16 @@
+.projects h2 {
+    text-align: center;
+}
+
+div.projects-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    div.projects-list {
+        flex-direction: column;
+    }
+}
